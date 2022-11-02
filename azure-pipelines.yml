@@ -56,7 +56,8 @@ stages:
     displayName: Deploy Linux Web App
     environment: $(environmentName)
     pool:
-      vmImage: $(vmImageName)
+      name: AWS-AZURE
+      #vmImage: $(vmImageName)
     strategy:
       runOnce:
         deploy:
