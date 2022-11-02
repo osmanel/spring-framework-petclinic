@@ -29,7 +29,7 @@ stages:
     displayName: Maven Package and Publish Artifacts
     pool:
       #vmImage: $(vmImageName)
-      name: vmImageName
+      name: $(vmImageName)
 
     steps:
     - task: Maven@3
