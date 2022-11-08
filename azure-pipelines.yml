@@ -12,10 +12,10 @@ variables:
   azureSubscription: '593fb55c-86bb-4f8b-8906-5a49620c2b1b'
 
   # Web app name
-  webAppName: 'my-app-name2'
+  webAppName: 'myLinuxAppName1'
 
   # Environment name
-  environmentName: 'my-app-name2'
+  environmentName: 'myLinuxAppName1'
 
   # Agent VM image name
  # vmImageName: AWS-AZURE
